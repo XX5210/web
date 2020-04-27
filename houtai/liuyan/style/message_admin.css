@@ -1,0 +1,90 @@
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:url(../image/body_bg.jpg) 0 0 no-repeat; 
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  overflow-y: scroll; 
+  background-position: center center;
+  background-size: cover;
+}
+.logn {
+  margin-top: 140px;
+  margin-left:50%; 
+  width: 280px;
+  height: 190px;  
+}
+.logn form{
+  font-size: 24px;
+}
+.logn input[type='text']{
+  background: none;
+	border: 1px solid #1bffff;
+	border-radius: 10px;
+	width: 180px;
+  height:30px;
+  margin: 8px auto;
+	outline: none;
+	font-size: 16px;
+	color: #000000;
+	padding: 0 10px;
+}
+.logn input[type='password']{
+   background: none;
+	border: 1px solid #1bffff;
+	border-radius: 10px;
+	width: 180px;
+  height:30px;
+  margin: 8px auto;
+	outline: none;
+	font-size: 16px;
+	color: #000000;
+	padding: 0 10px;
+}
+.logn img{
+  position: absolute;
+  height: 30px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+.logn input[type='submit']{
+  width:82px;
+  height:30px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top:10px;
+  background: none;
+  border: 1px solid #1bccfd;
+  color: #1bccfd;
+  font-weight: 600;
+  transition:.5s all;
+  cursor:pointer;
+}
+.logn input[type='submit']:hover {
+  color: #fff;
+  background:  #1bccfd;
+  border-color:  #1bccfd;
+  outline: none;
+}
+.logn input[type='reset']{
+  width:82px;
+  height:30px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top:10px;
+  background: none;
+  border: 1px solid #1bccfd;
+  color: #1bccfd;
+  font-weight: 600;
+  transition:.5s all;
+  cursor:pointer;
+}
+.logn input[type='reset']:hover {
+  color: #fff;
+  background:  #1bccfd;
+  border-color:  #1bccfd;
+  outline: none;
+}

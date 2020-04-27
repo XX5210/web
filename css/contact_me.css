@@ -1,0 +1,40 @@
+.contact{
+  margin:0 auto;
+  width: 1000px;
+  overflow: hidden;
+  background: rgba(102,197,180,.8);
+}
+.contactbg{
+  width: 1000px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 110px;
+  color: #fff;
+}
+.contactli{
+  height: 240px;
+}
+.contactli ul{
+  width: 400px;
+  margin: 0 auto;
+}
+.contactli li{
+  display: block;
+  margin-top:25px;
+  height: 30px;
+  width: 350px; 
+  font-size:18px;
+  font-weight: bold;
+}
+.contactli a{
+  padding-left:10px; 
+  color: #fff;
+  transition: .5s;
+}
+.contactli a:hover{
+  padding-left: 25px;
+  color: #00a7eb;
+  cursor: pointer;
+}

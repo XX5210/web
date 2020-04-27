@@ -1,0 +1,91 @@
+.message{
+	padding-left: 20px;
+  width: 980px;
+  height: 485px;
+  margin: 0 auto;
+  background:rgba(251,251,251,0.8); 
+	background-size: cover;
+}
+.message h3{
+  margin: 0 0 1em 0;
+	font-size: 3.3em;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	color: #00a7eb;
+	letter-spacing: 1px;
+}
+.message h3 span{
+  font-weight: 800;
+	margin-left: 8px;
+}
+.message form{
+  width: 710px;
+}
+.message input[type="text"] {
+	display: inline-block;
+	background: none;
+	border: 1px solid #1bccfd;
+	border-radius: 10px;
+	width: 300px;
+	margin: 0 0 1em 0;
+	outline: none;
+	font-size: 16px;
+	color: #1bccfd;
+	font-weight: 300;
+	padding: 16px 20px;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+}
+.message input[type="email"] {
+	display: inline-block;
+	background: none;
+	border: 1px solid #1bccfd;
+	border-radius: 10px;
+	width: 300px;
+	margin: 0 0 1em 0;
+	outline: none;
+	font-size: 16px;
+	color: #1bccfd;
+	font-weight: 300;
+	padding: 16px 20px;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+}
+.message textarea {
+	background: none;
+	border: 1px solid #1bccfd;
+	border-radius: 10px;
+	width: 640px;
+	height: 180px;
+	outline: none;
+	font-size: 16px;
+	color: #1bccfd;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	resize: none;
+	padding: 16px 23px;
+	letter-spacing: 1px;
+	overflow-y: hidden;
+}
+.message input[type="submit"] {
+  display: inline-block;
+  background: none;
+  border: 1px solid #1bccfd;
+  border-radius: 10px;
+  width: 23%;
+  outline: none;
+  margin-top: 1.5em;
+  font-size: 16px;
+  color: #1bccfd;
+  font-weight: 600;
+  padding: 8px 20px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  transition:.5s all;
+}
+.message input[type="submit"]:hover {
+  color: #fff;
+  background:  #1bccfd;
+  border-color:  #1bccfd;
+  outline: none;
+}

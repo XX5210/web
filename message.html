@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>欢迎光临陈靖的个人网站</title>
+<link rel="stylesheet" href="css/style.css"/>
+<!--...--><link rel="stylesheet" href="css/message.css"/>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script> 
+<script src="js/top.js"></script>
+<script src="js/bodybg.js"></script>
+<script src="js/music.js"></script>
+<script src="js/back.js"></script>
+
+
+</head>
+
+
+<body backgroundAttachment="fixed">
+
+<header class="top">
+	<div class="logo">
+    	<a class="a_logo" href="index.php"></a>
+    	<ul>
+    	<li><a href="#">English</a></li>
+    	<li><a href="#">收藏本站</a></li>
+        <li><a><button onClick="setStyle();">换肤</button></a></li>
+    	<li><a id="right_box_link" href="#right_box">友情链接</a></li>
+   		</ul>
+    </div>    
+</header>
+
+<div id="right_box" class="box">
+	<h2>《《友情链接》》</h2>
+    <ul>
+    	<li><a>于茜</a><a><img src="images/logo_yuqian.gif" width="150"/></a></li>
+        <li><a>陈靖</a><a><img src="images/logo_chenjing.png" width="150"/></a></li>
+        <li><a>高倩</a><a><img src="images/logo_gaoqian.png" width="150"/></a></li>
+        <li><a>刘侃</a><a><img src="images/logo_liukan.jpg" width="150"/></a></li>
+        <li><a>刘锐敏</a><a><img src="images/logo_liuruiming.gif" width="150"/></a></li>
+        <li><a>李艺华</a><a><img src="images/logo_liyihua.gif" width="150"/></a></li>
+        <li><a>闵蕾蕾</a><a><img src="images/logo_minleilei.png" width="150"/></a></li>
+        <li><a>撒拢峰</a><a><img src="images/logo_salongfeng.gif" width="150"/></a></li>
+        <li><a>张敏</a><a><img src="images/logo_zhangmin.jpg" width="150"/></a></li>
+        <li><a>赵娜娜</a><a><img src="images/logo_zhaonana.png" width="150"/></a></li>
+        <li><a>苏静</a><a><img src="images/logo_sujing.gif" width="150"/></a></li>
+        <li><a>王静</a><a><img src="images/logo_wangjing.jpg" width="150"/></a></li>
+    </ul>
+</div>
+
+<div class="nav">
+	<div class="nav_line"></div>
+    <div class="nav_bg">
+    	<div class="menu">
+    		<ul>
+        	<a href="index.php" target="_self"><li>首页</li></a>
+            <a href="grow.html" target="_self"><li>个人动态</li></a>
+            <a href="college.html" target="_self"><li>大学四年</li></a>
+        	<a href="products.html" target="_self"><li>作品展示</li></a>
+        	<a href="message.html" target="_self"><li class="menu_bg">给我留言</li></a>
+        	<a href="contact_me.html" target="_self"><li>联系我</li></a>
+        	</ul>
+    	</div>
+    </div>
+</div>
+
+<div id="left">
+	<div class="music">
+		<div class="music_con"><a  class="music_but"></a>
+            <audio style="width:350px;height:30px;" controls>
+            	<source src="music/piano.ogg" type="audio/ogg"/>
+                <source src="music/piano.mp3" type="audio/mpeg"/>
+            </audio>							 
+        </div>
+	</div>
+	<div id="back"><a></a></div>
+    <div id="home"><a href="index.php" target="_self"></a></div>
+</div>
+
+<div id="main">
+<!--start-->
+	<div class="message">
+			<h3>Say <span> 'Hello'</span></h3>
+			<form>
+				<input type="text" value="你的名字" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your Name';}" required="">
+				<input type="email" value="你的邮箱" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your Email';}" required="">
+				<textarea type="text"  onfocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your Message Here ...';}" required>要给我说些什么吗？</textarea>
+				<input type="submit" value="提交" >
+			</form>
+    </div> 
+<!--end-->  
+    <div id="foot">
+    	版权所有 © 2015 .　<a href="http://user.qzone.qq.com/457319737" target="_blank" title="">陈靖空间</a>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/right-box.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#right_box_link').boxslider({side: 'right',  duration: 200 });	
+});
+</script>
+</body>
+</html>
